@@ -24,26 +24,26 @@ function Hero() {
                 Get started now
             </a>
 
-            <div className="space-x-10 text-sm mt-4 font-light text-gray-600 flex">
-                    <span className="flex space-x-1">
+            <div className="space-x-10 text-sm mt-4 font-light text-gray-600 flex items-center">
+                    <span className="flex space-x-1 items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                             width={12}>
+                             width={12} height={12}>
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7"/>
                         </svg>
                         <span>No credit card</span>
                     </span>
 
-                <span className="flex space-x-1">
+                <span className="flex space-x-1 items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                             width={12}>
+                             width={12} height={12}>
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7"/>
                         </svg>
                         <span>14 day free trial</span>
                     </span>
 
-                <span className="flex space-x-1">
+                <span className="flex space-x-1 items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                             width={12}>
+                             width={12} height={12}>
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7"/>
                         </svg>
                         <span>Cancel anytime</span>
@@ -60,7 +60,7 @@ function TrustSection() {
 
             <div className="flex space-x-10 justify-between mt-10 xl:px-40">
                 {Array.from(Array(6).keys()).map(i =>
-                    <svg key={i} height="{30}" viewBox="0 0 152 44" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    <svg key={i} height={34} viewBox="0 0 152 44" version="1.1" xmlns="http://www.w3.org/2000/svg"
                          space="preserve" fillRule="evenodd" clipRule="evenodd" strokeLinejoin="round"
                          strokeMiterlimit="1.41421">
                         <g fill="#B8B8B8" fillRule="nonzero">
